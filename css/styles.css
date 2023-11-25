@@ -423,7 +423,12 @@ a {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer {
   display: flex;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -458,26 +463,4 @@ a {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-}
-.contact-link-footer {
-  background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  padding: 12px;
-}
-.contact-team-footer {
-  fill: #f4f4fd;
-  width: 24px;
-  height: 24px;
-}
-.contact-blok-footer {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
-.contact-footer {
 }
