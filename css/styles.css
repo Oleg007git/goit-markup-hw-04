@@ -313,6 +313,25 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.contact-blok {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-link {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 12px;
+}
+.contact-team {
+  fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
+}
+
 /* SECTION 3 (OUR TEAM) */
 
 /* SECTION 4 (OUR PORTFOLIO) */
@@ -372,6 +391,7 @@ a {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -398,4 +418,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+.footer-title {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
