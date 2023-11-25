@@ -416,6 +416,32 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* slaider */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #4d5ae5;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+.overlay-stop {
+  position: relative;
+  overflow: hidden;
+}
+.overlay-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+}
+.portfolio-main-list:hover .overlay {
+  transform: translateY(0%);
+}
 /* SECTION 4 (OUR PORTFOLIO) */
 
 /* FOOTER */
@@ -424,11 +450,10 @@ a {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer {
+.container-footer {
   display: flex;
+  margin: 0 auto;
   max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -463,4 +488,12 @@ a {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  margin-left: 100px;
+}
+.contact-blok-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  margin: 0 692px 132px 120px;
 }
