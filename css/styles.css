@@ -469,6 +469,9 @@ a {
   margin-right: 120px;
   max-width: 1440px;
 }
+.container-one{
+  margin-right: 120px;
+}
 .logo-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -504,5 +507,3 @@ a {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.contact-blok-footer {
-  
