@@ -121,8 +121,8 @@ a {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
 }
+
 .menu-item:hover {
   color: #404bbf;
   font-size: 18px;
@@ -139,6 +139,19 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+}
+.menu-contacts-item {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-contacts-item:hover,
+.menu-contacts-item:focus {
+  color: #404bbf;
 }
 
 .studio-item {
@@ -158,19 +171,6 @@ a {
   content: "";
   left: 0;
   bottom: -1px;
-}
-.menu-contacts-item {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.menu-contacts-item:hover,
-.menu-contacts-item:focus {
-  color: #404bbf;
 }
 
 /* HEADER */
